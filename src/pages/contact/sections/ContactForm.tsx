@@ -43,14 +43,14 @@ const ContactForm = () => {
               />
             </div>
             <div className="flex items-center gap-x-4">
-              <input type="checkbox" name="terms" className="" />
-              <span className="text-xl font-semibold normal-case">I accept the Terms</span>
+              <input type="checkbox" name="terms" className="accent-orange-600 cursor-pointer" />
+              <span className="text-2xl font-semibold normal-case">I accept the Terms</span>
             </div>
             <div className="mt-2">
               <input
                 type="submit"
                 value="submit"
-                className="w-full text-white font-semibold hover:scale-95 cursor-pointer py-4 px-7 rounded-xl bg-orange-600  text-2xl uppercase"
+                className="w-full text-white font-semibold md:h-[4.5rem] h-[5rem] hover:scale-95 cursor-pointer py-4 px-7 rounded-xl bg-orange-600  text-2xl uppercase"
               />
             </div>
           </form>
