@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fitlifestudio.vercel.app/sitemap.xml
