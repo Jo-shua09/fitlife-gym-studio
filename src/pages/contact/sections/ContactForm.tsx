@@ -39,7 +39,7 @@ const ContactForm = () => {
               </label>
               <textarea
                 name="message"
-                className="w-full h-[15rem] rounded-xl bg-transparent border border-black focus:border-orange-600 pl-3 text-2xl normal-case"
+                className="w-full h-[15rem] rounded-xl bg-transparent border border-black focus:border-orange-600 p-3 text-2xl normal-case"
               />
             </div>
             <div className="flex items-center gap-x-4">
