@@ -23,12 +23,12 @@ const Navbar = () => {
       <div className="w-full flex items-center justify-between gap-10">
         <div className="flex items-center gap-x-2 w-full">
           <img loading="lazy" src="logo-bg.png" alt="logo image" className="w-10 h-10" />
-          <h4 className="text-3xl font-bold">FitLife studio</h4>
+          <h4 className="md:text-3xl text-4xl font-bold">FitLife studio</h4>
         </div>
 
         {/* Hamburger Menu for Mobile */}
         <button className="md:hidden z-50" onClick={() => setIsOpen(!isOpen)}>
-          {!isOpen ? <Menu className="!text-4xl font-bold" /> : <Close className="!text-4xl font-bold" />}
+          {!isOpen ? <Menu className="!text-5xl font-bold" /> : <Close className="!text-5xl font-bold" />}
         </button>
 
         {/* Desktop Navigation */}
