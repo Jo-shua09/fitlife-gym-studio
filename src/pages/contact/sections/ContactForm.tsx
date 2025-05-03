@@ -8,7 +8,7 @@ const ContactForm = () => {
           <div className=" flex flex-col gap-y-7">
             <h2 className="font-bold md:text-6xl text-5xl"> Get in Touch with FitLife Studio</h2>
             <p className="text-3xl font-normal normal-case">
-              We’re Here to Help You on Your Fitness Journey. Reach Out to Us with Any Questions or to Schedule a Visit!{" "}
+              We’re Here to Help You on Your Fitness Journey. Reach Out to Us with Any Questions or to Schedule a Visit!
             </p>
           </div>
 
