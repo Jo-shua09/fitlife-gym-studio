@@ -15,7 +15,7 @@ const ContactForm = () => {
           <form className="w-full flex flex-col gap-y-8 mt-10">
             <div className="flex flex-col gap-y-2">
               <label htmlFor="name" className="text-2xl font-semibold">
-                fullname
+                name
               </label>
               <input
                 type="text"
